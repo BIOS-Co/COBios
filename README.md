@@ -103,4 +103,12 @@ Como entrada recibe un archivo xlsx que contiene el mismo formato que la data or
 - pip install joblib
 
 # Modelos XGBOOST [liderazgo, motivación, reciprocidad, participación]
-Finalizado los pasos anteriores
+Finalizado los pasos anteriores para ejecutar el modelo, debes acceder al archivo del modelo que no se encuentra ubicado en ninguna carpeta, con formato ipynb, ejecuta el comando Run All que se encuentra en la parte superior del visual, al final del codigo que tarda unos minutos en ejecutarse donde se ubica el comando  db.run(), ahí se generara un dashboard, en un puerto local definido de la siguiente forma 
+
+Starting ExplainerDashboard on http://192.168.1.21:8050
+Dash is running on http://0.0.0.0:8050/
+
+los puerto pueden cambiar, pero accediendo a cualquier de dichos enlaces podras ver el tablero asociado al modelo ejecutado.
+
+# Modelo de cluster
+
