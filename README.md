@@ -73,3 +73,8 @@ Categoria 1 [1.4 - 2.3]
 Categoria 2 [2.3 - 3.2]
 Categoria 3 [3.2 - 4.1]
 Categoria 4 [4.1 - 5]
+
+# MODELO DE CLUSTER
+Este modelo que se ubica en el archivo ModeloClusterInference.ipynb , corresponde como dice la extensión a un cuadernillo en formato ipynb, y es un modelo de aprendizaje no supervisado, mas especificos de cluster, basicamente el estudio que se realizo en este aspecto, fue identificar grupos teniendo en cuenta las caracteristicas de las personas, y los resultados en las areas determinadas, para poder observar tendencias y las caracteristicas de cada uno de estos grupos, de esta manera identificar falencias y generar un plan de acción para cada uno.
+
+Como entrada recibe un archivo xlsx que contiene el mismo formato que la data original, ubicado en la carpeta Data, y cuya ruta se estipula en la variable folder_path del archivo ipynb, en la sección de subir archivo. Finalmente el modelo devuelve un archivo xlsx que por default tiene el nombre de  ResultadosClusters.xlsx dentro de la carpeta ResultadosAnalisisCluster, con la categoria asignada a cada clase. para poder entender cuales son las dificultades de cada clase, vienen los informes asociados dentro de la carpeta informes clusters.
