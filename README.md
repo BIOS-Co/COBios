@@ -39,4 +39,37 @@ Dentro del repositorio tenemos 4 carpetas:
 -  CuadernillosGoogleColab: Es la carpeta que contiene los cuadernillos con los cuales se entrenaron los modelos finales, ademas del analisis inspectorio inicial de los datos para evaluar la tipologia de los datos, y su relación con las salidas.
 
 # MODELOS
-Finalmente tenemos 5 modelos generados, los primeros 4 corresponden a modelos predictorios con parametros de entrada las variables categoricas de la persona como son [edad, sexo, area de trabajo, institución, etc...] , para poder predecir cual sera su rendimiento en el examen de ambiente laboral en cada una de las areas determinadas,
+Finalmente tenemos 5 modelos generados, los primeros 4 corresponden a modelos predictorios con parametros de entrada las variables categoricas de la persona como son [edad, sexo, area de trabajo, institución, etc...] , para poder predecir cual sera su rendimiento en el examen de ambiente laboral en cada una de las areas determinadas, para este caso se reemplanteo el problema de regresión a un problema de clasificación, donde cada categoria corresponde a un rango de valores, para la nota de la categoria en estudio, junto a un % de fiabilidad, el modelo se vera ejecutado en un explainer dashboard, donde nos centraremos en 4 secciones proporcionadas:
+- Feacture importances: Que es basicamente la sección donde podremos observar, cual fue el peso de cada variable a la hora de generar el modelo, organizado por orden de importancia, para el mismo.
+- Individual Predictions: Corresponde al apartado donde podremos ver individualmente, cual es el porcentaje de fiabilidad para cada categoria, a cual categoria fue vinculado, y ademas tendremos manera de ver mediante un Contributions Plot, como fue el proceso para cada categoria, y en que contribuyo para cada variable para ser ubicado en un determinado grupo.
+- What if: que corresponde a un entorno de simulación, para generar sujetos y ver como serian clasificados por el modelo.
+
+Cada modelo tiene 5 grupos posibles, pero representan rangos diferentes dependiendo de la categoria organizados de la siguiente manera:
+
+# LIDERAZGO
+Categoria 0 [1 - 1.8]
+Categoria 1 [1.8 - 2.6]
+Categoria 2 [2.6 - 3.5]
+Categoria 3 [3.5 - 4.2]
+Categoria 4 [4.2 - 5]
+
+# MOTIVACIÓN
+Categoria 0 [0.25 - 1.2]
+Categoria 1 [1.2 - 2.15]
+Categoria 2 [2.15 - 3.1]
+Categoria 3 [3.1 - 4.05]
+Categoria 4 [4.05 - 5]
+
+# RECIPROCIDAD
+Categoria 0 [0.75 - 1.5]
+Categoria 1 [1.5 - 2.25]
+Categoria 2 [2.25 - 3.0]
+Categoria 3 [3.0 - 3.75]
+Categoria 4 [3.75 - 4.5]
+
+# PARTICIPACIÓN
+Categoria 0 [0.5 - 1.4]
+Categoria 1 [1.4 - 2.3]
+Categoria 2 [2.3 - 3.2]
+Categoria 3 [3.2 - 4.1]
+Categoria 4 [4.1 - 5]
