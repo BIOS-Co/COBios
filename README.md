@@ -78,3 +78,29 @@ Categoria 4 [4.1 - 5]
 Este modelo que se ubica en el archivo ModeloClusterInference.ipynb , corresponde como dice la extensión a un cuadernillo en formato ipynb, y es un modelo de aprendizaje no supervisado, mas especificos de cluster, basicamente el estudio que se realizo en este aspecto, fue identificar grupos teniendo en cuenta las caracteristicas de las personas, y los resultados en las areas determinadas, para poder observar tendencias y las caracteristicas de cada uno de estos grupos, de esta manera identificar falencias y generar un plan de acción para cada uno.
 
 Como entrada recibe un archivo xlsx que contiene el mismo formato que la data original, ubicado en la carpeta Data, y cuya ruta se estipula en la variable folder_path del archivo ipynb, en la sección de subir archivo. Finalmente el modelo devuelve un archivo xlsx que por default tiene el nombre de  ResultadosClusters.xlsx dentro de la carpeta ResultadosAnalisisCluster, con la categoria asignada a cada clase. para poder entender cuales son las dificultades de cada clase, vienen los informes asociados dentro de la carpeta informes clusters.
+
+# Requerimientos
+
+1) Instala un lector de codigó con compatibilidad con jupyterNotebooks, preferiblemente Visual Studio Code.
+- https://code.visualstudio.com/
+- Instala el gestor de paquetes de python (pip), para poder instalar las dependencias de necesarias de los cuadernillos que contienen los modelos
+2) Instala las extensiones de Python, Jupyter, Jupyter Keymap, Jupyter Slide Show, Jupyter cell tags, Jupyter Notebook Renderers.
+3) Clona el repositorio mediante el comando en consola:
+"git clone https://github.com/BIOS-Co/COBios.git"
+
+4) Abre la carpeta del proyecto en visual studio denominada COBios.
+5) En caso de ser necesario instala el kernel de jupyter notebook que te recomiendan como sugerencia el visual studio code.
+6) Instala los siguiente paquetes en tu computadora mediante el comando "pip install" en consola
+- pip install pandas
+- pip install matplotlib
+- pip install seaborn
+- pip install numpy
+- pip install sklearn
+- pip install statsmodels
+- pip install explainerdashboard
+- pip install catboost
+- pip install xgboost
+- pip install joblib
+
+# Modelos XGBOOST [liderazgo, motivación, reciprocidad, participación]
+Finalizado los pasos anteriores
